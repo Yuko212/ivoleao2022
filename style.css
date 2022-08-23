@@ -42,7 +42,8 @@ ul{
     display: inline-block;
     vertical-align: top;
     width: 20%;
-    margin-right: 10%;
+    margin-right: 5%;
+    padding-top: 20%;
 }
 
 .ordem {
