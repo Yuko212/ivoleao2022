@@ -32,8 +32,19 @@ em strong {
 
 .Harbingers {
     background: #FFFF;
+    padding: 30px;
 }
 
 h2 {
     text-align: center;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.ordem {
+    width: 50%;
 }
