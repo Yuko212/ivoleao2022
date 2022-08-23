@@ -1,5 +1,5 @@
 body {
-    background-image: src="simbolo.png";
+
 }
 
 #mensageiros {
@@ -32,4 +32,8 @@ em strong {
 
 .Harbingers {
     background: #FFFF;
+}
+
+h2 {
+    text-align: center;
 }
