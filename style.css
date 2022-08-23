@@ -1,9 +1,13 @@
 body {
-    background: #CCCCCC
+    background-image: src="simbolo.png";
 }
 
 #mensageiros {
     width: 100%;
+}
+
+.Principal {
+    background: #CCCCCC
 }
 
 h1 {
