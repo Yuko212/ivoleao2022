@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    style="text-align: center"
+    text-align: center
 }
 
 p{
@@ -11,5 +11,5 @@ p{
 }
 
 em strong {
-    color: #351516;
+    color: red;
 }
