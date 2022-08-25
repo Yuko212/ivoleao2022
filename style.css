@@ -12,11 +12,11 @@ body {
 
 h1 {
     text-align: center
-    color: aliceblue;
 }
 
 p{
     text-align: center;  
+    color:aliceblue;
 }
 
 #missao {
@@ -46,7 +46,7 @@ ul{
     width: 20%;
     margin-right: 5%;
     padding-top: 10%;
-    color: aliceblue;
+    cc
 }
 
 .ordem {
