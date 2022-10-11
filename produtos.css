@@ -1,5 +1,5 @@
 body {
-
+    b
 }
 
 /*NAVEGAÇÃO ENTRE PAGINAS*/
@@ -9,7 +9,7 @@ body {
 
 .caixa {
     position: relative;
-    width: 50px;
+    width: 400px;
     margin: 0 auto;
 }
 
