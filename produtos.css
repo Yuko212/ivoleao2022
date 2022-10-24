@@ -70,9 +70,16 @@ nav a:hover {
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
+    color: white;
 }
 
 .produto-preco {
     font-size: 22px;
     font-weight: bold;
+    color: white;
+}
+
+.produto-descricao {
+    font-size: 18px;
+    color: white;
 }
