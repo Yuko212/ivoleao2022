@@ -53,6 +53,11 @@ nav a:hover {
     width: 180px;
 }
 
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+}
+
 .produtos li {
     display: inline-block;
 }
