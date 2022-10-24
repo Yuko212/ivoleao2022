@@ -52,3 +52,7 @@ nav a:hover {
     height: 180px;
     width: 180px;
 }
+
+.produtos li {
+    display: inline-block;
+}
