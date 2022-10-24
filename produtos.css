@@ -69,10 +69,23 @@ nav a:hover {
     margin: 0 1.5%;
     padding: 30px 20px 30px;
     box-sizing: border-box;
-    border-color: #ff0000;
+    border-color: #101f2e;
     border-width: 2px;
     border-style: solid;
     border-radius: 20px;
+}
+
+.produtos li:hover {
+    border-color: #ff0000;
+}
+
+.produtos li:active {
+    border-color: aqua;
+}
+
+.produtos li:hover h2 {
+    font-size: 34
+    px;
 }
 
 .produtos h2 {
