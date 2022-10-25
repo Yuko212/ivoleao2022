@@ -57,7 +57,7 @@ nav a:hover {
     width: 940px;
     margin: 0 auto;
     padding-top: 50px;
-    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .produtos li {
