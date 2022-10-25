@@ -44,6 +44,10 @@ nav a:hover {
 
 /*PRODUTOS*/
 
+main {
+    background: url(FundoVinho.jpg);
+}
+
 .jobo {
     width:225px ;
     height:225px ;
