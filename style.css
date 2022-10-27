@@ -66,7 +66,7 @@ p{
 
 em strong {
     color: #020345;
-    font-size: 40px
+    font-size: 60px
 }
 
 .itens {
@@ -121,4 +121,8 @@ ul{
 
 .vida {
     margin-left: 40%;
+}
+
+.Gorou {
+    font-size: 30px;
 }
