@@ -25,18 +25,29 @@
         <main id="crl">
             <form>
                 <label for="codenome"> Nome/Codenome </label>
-                <input type="text" id="codenome"">
+                <input type="text" id="codenome" class="eunaoqueromais">
 
                 <label for="email"> Email</label>
-                <input type="text" id="email">
+                <input type="text" id="email" class="eunaoqueromais">
             
                 <label for="telefone"> Telefone </label>    
-                <input type="text" id="telefone">
+                <input type="text" id="telefone" class="eunaoqueromais">
+
+                <label for="mensagem"> Mensagem </label>
+                <textarea cols="70" rows="10" id="mensagem" class="eunaoqueromais"> </textarea>
+
+                <div>
+                    <p>Por onde prefer nosso contato?</p>
+                    <label for="porra"><input type="radio" name="contato" value="email" id="porra"> Email </label>
+                    
+                    <label for="puta"><input type="radio" name="contato" value="telefone" id="puta"> Telefone </label>
+
+                    <label for="quenga"><input type="radio" name="contato" value="discord" id="quenga"> Discord </label>
+                </div>
+
+                <label><input type="checkbox"> Gostaria de receber novidades pelo seu Terminal Akasha? </label>
 
                 <input type="submit" value="Enviar  Formulário">
-
-                <textarea cols="30" rows="10"> </textarea>
-
             </form>
         </main>
 
