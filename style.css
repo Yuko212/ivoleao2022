@@ -1,5 +1,5 @@
 body {
-
+    
 }
 
 header {
@@ -15,6 +15,7 @@ header {
     position: relative;
     width: 800px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 nav {
@@ -41,71 +42,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/*HOME*/
+/*PRODUTOS*/
 
-#mensageiros {
-    width: 100%;
-}
-
-.Principal {
-    background: #213461
-}
-
-h2 {
-    text-align: center
-}
-
-p{
-    text-align: center;  
-    color:aliceblue;
-}
-
-#missao {
-    font-size: 20px
-}
-
-em strong {
-    color: #020345;
-    font-size: 60px
-}
-
-.itens {
-    font-style: italic;
-    font-size: 30px;
-}
-
-.Harbingers {
-    background:#273D52;
-    padding: 30px;
-}
-
-h3 {
-    text-align: center;
-}
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 5%;
-    padding-top: 10%;
-    color: aliceblue;
-}
-
-.ordem {
-    width: 20%;
-    height: 20%;
-    padding-right: 50%;
-    margin-left: 40%;
-}
-
-#sao {
-    color: #020345;
-    font-size: 40px;
-}
-
-.jorge {
-    width: 225px;
-    height: 225px;
+main {
+    background: url(FundoVinho.jpg);
 }
 
 .jobo {
@@ -113,16 +53,75 @@ ul{
     height:225px ;
 }
 
-.oque {
-    font-size: 80px;
+.Arrumar {
+    height: 180px;
+    width: 180px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    background: #101f2e;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px 30px;
+    box-sizing: border-box;
+    border-color: #101f2e;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.produtos li:hover {
+    border-color: #ff0000;
+}
+
+.produtos li:active {
+    border-color: aqua;
+}
+
+.produtos li:hover h2 {
+    font-size: 34;
+}
+
+.produtos h2 {
+    font-size: 30px;
     font-weight: bold;
     color: white;
 }
 
-.vida {
-    margin-left: 40%;
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0 0;
 }
 
-.Gorou {
-    font-size: 30px;
+.produto-descricao {
+    font-size: 18px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background:url("FundoCinza.jpg")
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form { 
+    margin: 40px 0;
 }
