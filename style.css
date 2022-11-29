@@ -44,7 +44,7 @@ nav a:hover {
 
 /*PRODUTOS*/
 
-main {
+.verme {
     background: url(FundoVinho.jpg);
 }
 
@@ -117,7 +117,7 @@ footer {
     background:url("FundoCinza.jpg")
 }
 
-main {
+.crl {
     width: 940px;
     margin: 0 auto;
 }
