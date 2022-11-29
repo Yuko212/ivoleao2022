@@ -90,8 +90,7 @@ main {
 }
 
 .produtos li:hover h2 {
-    font-size: 34
-    px;
+    font-size: 34;
 }
 
 .produtos h2 {
