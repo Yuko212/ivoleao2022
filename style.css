@@ -128,11 +128,11 @@ form {
     margin: 40px 0;
 }
 
-.eunaoqueromais {
+.input-padrao {
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
-    color: white;
+    
 }
 
 form input, form textarea {
@@ -140,5 +140,4 @@ form input, form textarea {
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
-    color: white;
 }
