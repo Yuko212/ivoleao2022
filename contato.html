@@ -25,38 +25,61 @@
         <main class="porra">
             <form>
                 <label for="codenome"> Nome/Codenome </label>
-                <input type="text" id="codenome" class="input-padrao">
+                <input type="text" id="codenome" class="input-padrao" required>
 
                 <label for="email"> Email</label>
-                <input type="text" id="email" class="input-padrao">
+                <input type="text" id="email" class="input-padrao" required placeholder="ex: tsaritsa.goddess@domínio.com">
             
                 <label for="telefone"> Telefone </label>    
-                <input type="text" id="telefone" class="input-padrao">
+                <input type="text" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
                 <label for="mensagem"> Mensagem </label>
-                <textarea cols="70" rows="10" id="mensagem" class="input-padrao"> </textarea>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required> </textarea>
 
-                <div>
-                    <p>Por onde prefer nosso contato?</p>
+                <fieldset>
+                    <legend>Por onde prefer nosso contato?</legend>
                     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
                     
                     <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
 
                     <label for="radio-discord"><input type="radio" name="contato" value="discord" id="radio-discord">Discord</label>
-                </div>
+                </fieldset>
 
-                <div>
-                    <p>Qual horário estaria disponível?</p>
+                <fieldset>
+                    <legend>Qual horário estaria disponível?</legend>
                     <select>
                         <option>Manhã</option>
                         <option>Tarde</option>
                         <option>Noite</option>
 
-                </div>
-                <label class="checkbox"><input type="checkbox"> Gostaria de receber novidades pelo seu Terminal Akasha? </label>
+                    </fieldset>
+                <label class="checkbox"><input type="checkbox" checked> Gostaria de receber novidades pelo seu Terminal Akasha? </label>
 
-                <input type="submit" value="Enviar  Formulário">
+                <input type="submit" value="Enviar  Formulário" class="enviar">
             </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda-Terça</td>
+                            <td> 10h ~ 19h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta-Quinta</td>
+                            <td> 10h ~ 18h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta-Sábado</td>
+                            <td> 11h ~ 17h30</td>
+                        </tr>
+                    </tbody>
+                </table>
         </main>
 
         <footer>
