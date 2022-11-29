@@ -46,8 +46,6 @@ nav a:hover {
 
 main {
     background: url(FundoVinho.jpg);
-    padding-top: 0px;
-    padding-bottom: 0px;
 }
 
 .jobo {
@@ -119,7 +117,7 @@ footer {
     background:url("FundoCinza.jpg")
 }
 
-.crl {
+main {
     width: 940px;
     margin: 0 auto;
 }
@@ -140,4 +138,8 @@ form label, form p {
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
 }
