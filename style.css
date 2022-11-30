@@ -187,6 +187,7 @@ td, th {
 
 .principal p {
     margin: 0 0 1em;
+    text-align: center;
 }
 
 .principal strong {
@@ -195,6 +196,11 @@ td, th {
 
 .principal em {
     font-style: italic;
+}
+
+.emblema {
+    width: 150px;
+    float: left;
 }
 
 .aordem {
