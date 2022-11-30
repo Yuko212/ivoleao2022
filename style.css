@@ -193,6 +193,7 @@ td, th {
 }
 
 .oque {
+    margin-top: 20px;
     font-size: 2em;
     font-weight: bold;
     padding-left: 46%;
@@ -233,7 +234,7 @@ td, th {
 .lista-itens {
     width: 40%;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .itens {
