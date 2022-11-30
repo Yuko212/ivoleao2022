@@ -192,6 +192,12 @@ td, th {
     padding-left: 46%;
 }
 
+.oque {
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 46%;
+}
+
 .principal {
     background: #FEFEFE;
 }
