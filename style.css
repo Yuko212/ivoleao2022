@@ -200,13 +200,13 @@ td, th {
 }
 
 .principal {
-    background: #FEFEFE;
+    background: #101f2e;
     width: 940px;
     margin: 0 auto;
 }
 
 .Harbingers {
-    background: #888888;
+    background: #581515;
 }
 
 .principal p {
@@ -253,6 +253,10 @@ td, th {
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#101f2e, #581515);
+}
+
+.mapa-conteudo {
     width: 940px;
     margin: 0 auto;
 }
