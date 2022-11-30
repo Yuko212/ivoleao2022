@@ -189,7 +189,15 @@ td, th {
 .missao {
     font-size: 2em;
     font-weight: bold;
-    padding-left: 47%;
+    padding-left: 46%;
+}
+
+.principal {
+    background: #FEFEFE;
+}
+
+.Harbingers {
+    background: #888888;
 }
 
 .principal p {
