@@ -212,3 +212,12 @@ td, th {
 section {
     display: inline-block;
 }
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
