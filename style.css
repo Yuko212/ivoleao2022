@@ -212,6 +212,7 @@ td, th {
 
 .lista-itens {
     width: 40%;
+    display: inline-block;
 }
 
 .aordem {
