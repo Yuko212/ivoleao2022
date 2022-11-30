@@ -117,13 +117,13 @@ footer {
     background:url("FundoCinza.jpg")
 }
 
-.porra {
-    width: 940px;
-    margin: 0 auto;
+main {
+
 }
 
 form { 
-    margin: 40px 0;
+    width: 940px;
+    margin: 0 auto;
 }
 
 form label, form legend {
@@ -201,6 +201,8 @@ td, th {
 
 .principal {
     background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .Harbingers {
@@ -251,6 +253,8 @@ td, th {
 
 .mapa {
     padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p {
