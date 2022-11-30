@@ -196,3 +196,7 @@ td, th {
 .principal em {
     font-style: italic;
 }
+
+.ordem {
+    width: 60%;
+}
