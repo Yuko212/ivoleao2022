@@ -189,7 +189,7 @@ td, th {
 .missao {
     font-size: 2em;
     font-weight: bold;
-    text-align: center;
+    padding-left: 20px;
 }
 
 .principal p {
