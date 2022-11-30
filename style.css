@@ -247,6 +247,10 @@ td, th {
     color: white;
 }
 
+.itens:before {
+    content: "★";
+}
+
 .itens:first-child {
     font-weight: bold;
     color: white;
