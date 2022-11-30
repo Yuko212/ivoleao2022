@@ -174,3 +174,25 @@ td, th {
     border: 1px solid black;
     padding: 8px 15px;
 }
+
+.mensageiros {
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
