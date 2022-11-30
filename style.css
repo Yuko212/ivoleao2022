@@ -205,8 +205,17 @@ td, th {
     padding-left: 25%;
 }
 
+.conteudo-itens {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-itens {
+    width: 40%;
+}
+
 .aordem {
-    width: 30%;
+    width: 60%;
 }
 
 .mapa {
