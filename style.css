@@ -248,7 +248,7 @@ td, th {
 }
 
 .itens:before {
-    content: "★";
+    content: "✦";
 }
 
 .itens:first-child {
@@ -273,6 +273,7 @@ td, th {
 .mapa p {
     margin: 0 0 2em;
     text-align: center;
+    color: white;
 }
 
 .video {
