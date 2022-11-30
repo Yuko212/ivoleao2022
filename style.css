@@ -184,12 +184,14 @@ td, th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    color: white;
 }
 
 .missao {
     font-size: 2em;
     font-weight: bold;
     padding-left: 46%;
+    color: white;
 }
 
 .oque {
@@ -197,6 +199,7 @@ td, th {
     font-size: 2em;
     font-weight: bold;
     padding-left: 46%;
+    color: white;
 }
 
 .principal {
@@ -209,6 +212,7 @@ td, th {
 
 .principal p {
     margin: 0 0 1em;
+    color: white;
 }
 
 .principal strong {
@@ -235,14 +239,17 @@ td, th {
     width: 40%;
     display: inline-block;
     vertical-align: top;
+    color: white;
 }
 
 .itens {
     line-height: 1.5;
+    color: white;
 }
 
 .itens:first-child {
     font-weight: bold;
+    color: white;
 }
 
 .aordem {
